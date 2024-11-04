@@ -277,7 +277,7 @@ nav .menu ul li a:hover {
   font-size: 13px;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 0.5px;
   text-align: center;
 }
@@ -349,7 +349,7 @@ nav .menu ul li a:hover {
 
 #video-container .video-content .inner p {
   color: #fff;
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 200;
   letter-spacing: 5px;
   text-align: center;
@@ -559,8 +559,8 @@ h3{
   width: 40%;
   font-size: 15px;
   font-style: normal;
-  font-weight: 200;
-   color: #ffffff;
+  font-weight: 400 !important; 
+  color: #ffffff;
   margin-bottom: 11rem;
  }
 
@@ -574,6 +574,10 @@ h3{
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
+}
+
+.fade-up-slow {
+  animation-duration: 2s; /* Długość trwania animacji w sekundach */
 }
 
 
@@ -781,7 +785,7 @@ height: auto;
   text-align: center;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 100;
   text-transform: uppercase;
   color: #fff;
   padding: 14rem 4rem 4rem 4rem;
@@ -1042,7 +1046,7 @@ section {
   background: #f2f3f517;
 }
 .skills .html {
-  width: 85%;
+  width: 90%;
   height: 5px;
   background-color: #ffffff;
 }
@@ -1057,18 +1061,18 @@ section {
   background-color: #ffffff;
 }
 
-.skills .mysql {
-  width: 40%;
+.skills .figma {
+  width: 30%;
   height: 5px;
   background-color: #ffffff;
 }
-.skills .php {
-  width: 10%;
+.skills .github {
+  width: 60%;
   height: 5px;
   background-color: #ffffff;
 }
 .skills .uiux {
-  width: 80%;
+  width: 90%;
   height: 5px;
   background-color: #ffffff;
 }
@@ -1083,7 +1087,7 @@ section {
   background-color: #ffffff;
 }
 .skills .illustrator {
-  width: 70%;
+  width: 80%;
   height: 5px;
   background-color: #ffffff;
 }
@@ -1099,7 +1103,7 @@ section {
   background-color: #ffffff;
 }
 .skills .blender {
-  width: 60%;
+  width: 50%;
   height: 5px;
   background-color: #ffffff;
 }
@@ -1691,7 +1695,7 @@ footer .col-md-12 i {
 
 
 .more-about-us {
-  background-image: url(../img/about_us_2.png);
+  background-image: url(../img/about_us_2.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
