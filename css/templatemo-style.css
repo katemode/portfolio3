@@ -1704,7 +1704,7 @@ footer .col-md-12 i {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
   .more-about-us {
     background-image: url(../img/about_us_600.png); /* Obraz tła dla urządzeń mobilnych */
   }
