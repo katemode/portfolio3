@@ -977,7 +977,7 @@ display: block;
 section {
   padding: 60px 0;
   overflow: hidden;
-  background-color: #595a75;
+  background-color: #908FBB;
 }
 
 .section-title {
@@ -1126,12 +1126,13 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #595a75;
+  background: #908FBB;
   /* background: #908FBB; jasne */
 }
 .contact .info i {
   font-size: 20px;
-  color: #908FBB;
+  /* color: #908FBB; */
+  color: #595a75;
   float: left;
   width: 44px;
   height: 44px;
@@ -1147,7 +1148,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #908FBB;
+  color: #595a75;
 }
 .contact .info p {
   padding: 0 0 0 60px;
@@ -1159,12 +1160,12 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #908FBB;
+  background: #595a75;
   color: #fff;
 }
 .contact .php-email-form {
   width: 100%;
-  background: #595a75;
+  background: #908FBB;
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
