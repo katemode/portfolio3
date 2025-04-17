@@ -727,6 +727,31 @@ h3{
   width: 80%;
   padding-top: 10rem;
 }
+
+.galleryy {
+  height: auto;
+  
+  background-color: #908FBB;
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+}
+.galleryy .photoo {
+  position: relative;
+  flex: 1 1 300px; /* minimum 300px szerokości */
+  max-width: 35%;
+  height: auto;
+  aspect-ratio: 1 / 1; /* kwadrat */
+  margin: 1vw;
+}
+
+.galleryy .photoo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 /* .gallery_two {
   height: auto;
   background-color: #908FBB;
